@@ -1,4 +1,5 @@
 package IhubDirect;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -7,11 +8,16 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-public class Contactus {
-	public static void main(String[] args) throws InterruptedException {
+import IhubBusiness.Baseclass;
+
+public class Contactus extends Baseclass {
+	@Test
+	public void Contactus() throws InterruptedException {
+		test = report.createTest("Contactus");
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "/home/anusha/Downloads/chromedriver_linux64/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/home/anushat/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://183.82.123.14/iHubMultiStoresDirectDev");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

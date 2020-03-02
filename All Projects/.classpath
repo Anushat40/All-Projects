@@ -52,5 +52,6 @@
 	<classpathentry kind="lib" path="/home/anushat/Downloads/poi-bin-4.1.1-20191023/poi-4.1.1/ooxml-lib/xmlbeans-3.1.0.jar"/>
 	<classpathentry kind="lib" path="/home/anushat/Downloads/junit4jars/hamcrest-core-1.3.jar"/>
 	<classpathentry kind="lib" path="/home/anushat/Downloads/junit4jars/junit4-4.8.2.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
