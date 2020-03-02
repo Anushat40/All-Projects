@@ -11,7 +11,6 @@ public class OnlineOrders_DC {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "/home/anushat/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();
-		// Admin
 		driver.get("http://183.82.123.14/iHubMultiStoresAdminDev");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();

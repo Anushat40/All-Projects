@@ -7,7 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Assignorders_DClogistic {
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "/home/anushat/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		// Admin

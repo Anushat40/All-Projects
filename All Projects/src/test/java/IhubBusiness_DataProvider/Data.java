@@ -19,8 +19,6 @@ public class Data {
 		FileInputStream fis = new FileInputStream("/home/anushat/Desktop/testdata.xls");
 		HSSFWorkbook wb = new HSSFWorkbook(fis);
 		HSSFSheet sh = wb.getSheetAt(0);
-
-		
 		
 		Object[][] d = new Object[sh.getLastRowNum()][2];
 

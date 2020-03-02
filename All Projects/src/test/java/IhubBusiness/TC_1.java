@@ -23,7 +23,7 @@ public class TC_1 extends Baseclass {
 		Login l = new Login(driver);
 		Login.signin(u, p);
 
-		System.out.println(driver.getTitle());
+	System.out.println(driver.getTitle());
 		Assert.assertTrue(driver.getTitle().equalsIgnoreCase("IhuBussiness"));
 
 	}

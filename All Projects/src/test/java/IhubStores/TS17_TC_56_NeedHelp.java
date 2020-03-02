@@ -10,7 +10,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TS17_TC_56_NeedHelp {
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "/home/anusha/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://205.147.109.73/iHubMultistoresStoreTRG");

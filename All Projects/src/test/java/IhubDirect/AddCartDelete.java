@@ -13,6 +13,7 @@ public class AddCartDelete {
 	public static void main(String[] args) throws InterruptedException {
 		// Add To cart
 		// Delete
+		
 
 		System.setProperty("webdriver.chrome.driver", "/home/anusha/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();

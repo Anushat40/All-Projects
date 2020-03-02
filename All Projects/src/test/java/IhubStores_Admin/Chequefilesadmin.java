@@ -9,7 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Chequefilesadmin {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "/home/anusha/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver3 = new ChromeDriver();
 		driver3.get("http://164.52.194.143/iHubBetaAdmin");

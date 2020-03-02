@@ -10,7 +10,6 @@ public class Sign_in {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 		//Signin
 		System.setProperty("webdriver.chrome.driver", "/home/anusha/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();

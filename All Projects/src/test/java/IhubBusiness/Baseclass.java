@@ -31,7 +31,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-
 public class Baseclass {
 
 	public static WebDriver driver;

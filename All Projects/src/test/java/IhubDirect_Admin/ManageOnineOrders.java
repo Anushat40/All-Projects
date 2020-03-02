@@ -11,7 +11,6 @@ public class ManageOnineOrders {
 		System.setProperty("webdriver.chrome.driver", "/home/anusha/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		// Admin
-
 		driver.get("http://164.52.194.143/iHubBetaAdmin");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();

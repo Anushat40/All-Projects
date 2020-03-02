@@ -10,7 +10,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TS9_TC_28_RequestPrice {
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "/home/anusha/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://192.168.7.5/iHubstoressqlQA");

@@ -9,7 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TS9_TC_29_RequestPrice_Admin {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "/home/anusha/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		// Admin

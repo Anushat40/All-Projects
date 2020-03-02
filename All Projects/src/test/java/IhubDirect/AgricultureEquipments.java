@@ -11,7 +11,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 public class AgricultureEquipments {
-
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "/home/anusha/Downloads/chromedriver_linux64/chromedriver");
