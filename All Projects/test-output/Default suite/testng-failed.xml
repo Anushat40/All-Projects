@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="IhubDirect.Contactus">
+      <class name="IhubBusiness.TC_1">
         <methods>
           <include name="suite"/>
-          <include name="Contactus"/>
+          <include name="test" invocation-numbers="0"/>
           <include name="afterSuite"/>
           <include name="endtest"/>
         </methods>
-      </class> <!-- IhubDirect.Contactus -->
+      </class> <!-- IhubBusiness.TC_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
